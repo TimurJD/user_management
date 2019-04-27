@@ -23,7 +23,7 @@ The things you need to install the software and how to install them.
     - `create database user_management;`
     - `create user 'admin'@'%' identified by 'admin';`
     - `grant all on user_management.* to 'admin'@'%';`
-2. To get the project up and running first of clone the repository whenever you want, and then navigate to the project and run several commands:
+2. To get the project up and running first of all clone or pull the repository to your local machine and then navigate to the project in terminal and run the following commands:
     - `mvn spring-boot:run`: It will build the whole project with the front-end part. The project will be running on default profile with mysql db.
     - alternatively, if you don't wanna install latest mysql db version, you can run the project with `dev` profile, so it means embedded h2 db will be used: `mvn spring-boot:run -Dspring-boot.run.profiles=dev`. NOTE: in such case step 1 is optional.    
 3. Navigate to http://localhost:8080
