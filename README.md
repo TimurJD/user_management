@@ -13,7 +13,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 The things you need to install the software and how to install them.
 
-1. Java 12+ download here [here][1]
+1. Java 12+ download [here][1]
 2. Maven 3.5.0+
 3. MySLQ 8.0.16+
 4. GIT
