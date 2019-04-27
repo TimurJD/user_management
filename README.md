@@ -22,5 +22,6 @@ The things you need to install the software and how to install them.
 1. To get the project up and running first of clone the repository whenever you want, and then navigate to the project and run several commands:
     - `mvn spring-boot:run` - It will build the whole project with the front-end part. The project will be running on default profile with mysql db.
     - alternatively, if you don't wanna install latest mysql db version, you can run the project with `dev` profile, so it means embedded h2 db will be used: `mvn spring-boot:run -Dspring-boot.run.profiles=dev`    
+2. Navigate to http://localhost:8080
 
 [1]: https://jdk.java.net/12/
