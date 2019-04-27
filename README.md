@@ -19,9 +19,14 @@ The things you need to install the software and how to install them.
 4. GIT
 
 ### Summary of set up
-1. To get the project up and running first of clone the repository whenever you want, and then navigate to the project and run several commands:
-    - `mvn spring-boot:run` - It will build the whole project with the front-end part. The project will be running on default profile with mysql db.
-    - alternatively, if you don't wanna install latest mysql db version, you can run the project with `dev` profile, so it means embedded h2 db will be used: `mvn spring-boot:run -Dspring-boot.run.profiles=dev`    
-2. Navigate to http://localhost:8080
+1. Prepare your MySQL DB instance by execution following commands:
+    - `create database user_management;`
+    - `create user 'admin'@'%' identified by 'admin';`
+    - `grant all on user_management.* to 'admin'@'%';`
+2. To get the project up and running first of clone the repository whenever you want, and then navigate to the project and run several commands:
+    - `mvn spring-boot:run`: It will build the whole project with the front-end part. The project will be running on default profile with mysql db.
+    - alternatively, if you don't wanna install latest mysql db version, you can run the project with `dev` profile, so it means embedded h2 db will be used: `mvn spring-boot:run -Dspring-boot.run.profiles=dev`. NOTE: in such case step 1 is optional.    
+3. Navigate to http://localhost:8080
+4. Default email is `admin@g.com` and password is `admin`
 
 [1]: https://jdk.java.net/12/
