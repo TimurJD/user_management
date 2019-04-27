@@ -19,7 +19,7 @@ The things you need to install the software and how to install them.
 4. GIT
 
 ### Summary of set up
-1. Prepare your MySQL DB instance by execution following commands:
+1. Prepare your MySQL DB instance by execution following commands (you need to connect to your MySQL instance first):
     - `create database user_management;`
     - `create user 'admin'@'%' identified by 'admin';`
     - `grant all on user_management.* to 'admin'@'%';`
