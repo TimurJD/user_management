@@ -6,8 +6,8 @@ Simple spring boot + mysql + angular application to demonstrate how to add/delet
 ---
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-* [Prerequisites](#markdown-header-prerequisites)
-* [Summary of set up](#markdown-header-summary-of-set-up)
+* [Prerequisites](#prerequisites)
+* [Summary of set up](#summary-of-set-up)
 
 ### Prerequisites
 
